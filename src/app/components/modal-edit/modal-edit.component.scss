@@ -1,0 +1,87 @@
+.mat-dialog-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+}
+
+.dialog-title {
+  text-align: center;
+  width: 100%;
+  font-size: 24px;
+  font-weight: bold;
+  color: #3f51b5;
+  margin-bottom: 20px;
+}
+
+.dialog-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mat-form-field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.mat-form-field input {
+  font-size: 16px;
+}
+
+.dialog-actions {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+button.mat-raised-button {
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: white;
+  background-color: #3f51b5;
+  border: none;
+  margin-left: 10px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button.mat-raised-button:hover {
+  background-color: #303f9f;
+}
+
+.cancel-button {
+  background-color: #f44336;
+}
+
+.cancel-button:hover {
+  background-color: #d32f2f;
+}
+
+.save-button {
+  background-color: #4caf50;
+}
+
+.save-button:hover {
+  background-color: #388e3c;
+}
+
+.preloader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  font-size: 18px;
+  color: #3f51b5;
+
+  mat-progress-spinner {
+    margin-bottom: 10px;
+  }
+}
