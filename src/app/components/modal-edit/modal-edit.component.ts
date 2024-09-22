@@ -8,7 +8,7 @@ import { FormsModule } from '@angular/forms';
 import { RxPush } from '@rx-angular/template/push';
 import { PeriodicTableStateService } from '../../services/periodic-table-state.service';
 import { Observable } from 'rxjs';
-import { PeriodicElement } from '../../periodic-table/periodic-table.component';
+import { PeriodicElement } from '../periodic-table/periodic-table.component';
 @Component({
   selector: 'app-modal-edit',
   templateUrl: './modal-edit.component.html',

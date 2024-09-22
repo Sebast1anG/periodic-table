@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { RxState } from '@rx-angular/state';
 import { of } from 'rxjs';
 import { delay } from 'rxjs/operators';
-import { PeriodicElement } from '../periodic-table/periodic-table.component';
+import { PeriodicElement } from '../components/periodic-table/periodic-table.component';
 export interface State {
   elements: PeriodicElement[];
   loading: boolean;

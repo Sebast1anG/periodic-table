@@ -16,10 +16,10 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { Observable, fromEvent } from 'rxjs';
-import { PeriodicTableStateService } from '../services/periodic-table-state.service';
+import { PeriodicTableStateService } from '../../services/periodic-table-state.service';
 import { MatTableDataSource } from '@angular/material/table';
 import { debounceTime, distinctUntilChanged, map } from 'rxjs/operators';
-import { ModalEditComponent } from '../components/modal-edit/modal-edit.component';
+import { ModalEditComponent } from '../modal-edit/modal-edit.component';
 
 export interface PeriodicElement {
   position: number;
